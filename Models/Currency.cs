@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TMS_13_Serialization.Models
 {
-    internal class Currency
+    public class Currency
     {
         [Newtonsoft.Json.JsonProperty("name")]
         public string name { get; set; }
